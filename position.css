@@ -1,4 +1,25 @@
-.background {
-  background-color: rgb(95, 97, 160);
+body {
+  background-color: cyan;
+}
+
+.cube {
   margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+}
+
+.cube1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+}
+
+.cube2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  top: 500px;
 }
