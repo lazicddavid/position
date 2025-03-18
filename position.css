@@ -10,18 +10,49 @@ body {
   border: 1px solid black;
 }
 
-.box-orange {
+.orange {
   height: 100px;
   width: 100px;
-  border: 1px solid black;
+
   position: absolute;
   background-color: orange;
-  right: 50px;
+  left: 0;
   top: 0;
 }
 
-.box-blue {
+.blue {
+  height: 100px;
+  width: 100px;
+
+  background-color: blue;
+  position: absolute;
+  top: 200px;
+  right: 200px;
 }
 
-.box-yellow {
+.yellow {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  top: 200px;
+  left: -100px;
+}
+
+.green {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  top: 0;
+  right: -100px;
+}
+
+.red {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-color: red;
+  bottom: 0;
+  right: 0;
 }
