@@ -2,24 +2,26 @@ body {
   background-color: cyan;
 }
 
-.cube {
-  margin: 0 auto;
+.container {
+  position: relative;
+  margin: 50px auto;
   width: 500px;
   height: 500px;
-  background-color: yellow;
+  border: 1px solid black;
 }
 
-.cube1 {
-  width: 100px;
+.box-orange {
   height: 100px;
-  background-color: red;
+  width: 100px;
+  border: 1px solid black;
   position: absolute;
+  background-color: orange;
+  right: 50px;
+  top: 0;
 }
 
-.cube2 {
-  width: 100px;
-  height: 100px;
-  background-color: green;
-  position: absolute;
-  top: 500px;
+.box-blue {
+}
+
+.box-yellow {
 }
