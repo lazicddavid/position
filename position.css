@@ -10,48 +10,40 @@ body {
   border: 1px solid black;
 }
 
-.orange {
-  height: 100px;
+.box {
   width: 100px;
-
+  height: 100px;
   position: absolute;
+  border: 1px solid black;
+}
+
+.box orange {
   background-color: orange;
   left: 0;
   top: 0;
 }
 
-.blue {
-  height: 100px;
-  width: 100px;
-
+.box blue {
   background-color: blue;
-  position: absolute;
-  top: 200px;
-  right: 200px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.yellow {
-  position: absolute;
-  height: 100px;
-  width: 100px;
+.box yellow {
   background-color: yellow;
   top: 200px;
   left: -100px;
 }
 
-.green {
-  position: absolute;
-  height: 100px;
-  width: 100px;
+.box green {
   background-color: green;
   top: 0;
   right: -100px;
 }
 
-.red {
-  height: 100px;
-  width: 100px;
-  position: absolute;
+.box red {
   background-color: red;
   bottom: 0;
   right: 0;
