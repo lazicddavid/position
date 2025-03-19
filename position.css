@@ -17,13 +17,13 @@ body {
   border: 1px solid black;
 }
 
-.box orange {
+.box.orange {
   background-color: orange;
   left: 0;
   top: 0;
 }
 
-.box blue {
+.box.blue {
   background-color: blue;
 
   top: 50%;
@@ -31,19 +31,19 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.box yellow {
+.box.yellow {
   background-color: yellow;
   top: 200px;
   left: -100px;
 }
 
-.box green {
+.box.green {
   background-color: green;
   top: 0;
   right: -100px;
 }
 
-.box red {
+.box.red {
   background-color: red;
   bottom: 0;
   right: 0;
